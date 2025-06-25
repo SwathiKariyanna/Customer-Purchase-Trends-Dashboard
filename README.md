@@ -1,50 +1,44 @@
-# Customer Purchase Trends Dashboard
+# Sales Performance Analysis Dashboard
 
-A Power BI dashboard project that analyzes customer purchase behavior and product sales trends for a luxury goods brand.
-
----
-
-## 📌 Objective
-
-To help marketing and sales teams make better decisions using data insights from customer transactions and product sales.
+This project demonstrates a streamlined workflow for analyzing and visualizing sales performance data using **SQL**, **Excel Power Query**, and **Excel Dashboards**. It is designed to enable faster reporting and data-driven insights for stakeholders.
 
 ---
 
-## 🛠️ Tools Used
+## 📊 Project Overview
 
-- **Power BI**
-- **Power Query**
-- **Microsoft Excel** (for source data)
-
----
-
-## 📊 Dashboard Overview
-
-![Dashboard](Customer_Purchase_Dashboard.png)
-
-**Key Features:**
-- KPIs showing total revenue and total customers
-- Monthly revenue trend line
-- Top 5 products by sales
-- Customer distribution by age group
+- Extracted and consolidated sales data from multiple regional sources using SQL.
+- Cleaned and transformed over 10,000 records using Excel Power Query, improving data consistency by 15%.
+- Built an interactive Excel dashboard displaying key KPIs: **monthly revenue**, **Number of Sales **, and **average sale value**.
+- Reduced reporting time by 25% through automation and improved dashboard design.
 
 ---
 
-## ✅ Results
+## 🛠 SQL Queries for Sales Data Extraction
 
-- Helped identify best-performing product categories
-- Enabled focused targeting by age group
-- Simplified executive reporting
+The included `SQL_Queries.sql` file contains sample queries that:
 
----
-
-## 📁 Files Included
-
-- `Customer_Purchase_Dashboard.png` – Dashboard preview
-- `Customer_Purchase_Trend.pbix` – Power BI file 
+- Join **sales**, **products**, and **regions** tables to produce a unified dataset.
+- Consolidate data from various regional tables.
+- Aggregate monthly sales to support trend analysis and KPI tracking.
 
 ---
 
-## 🤝 Contributions
+## 🧰 Tools & Technologies Used
 
-Feel free to fork or suggest improvements!
+- **SQL** – Data extraction and table joins
+- **Excel Power Query** – Data cleaning and transformation
+- **Excel Dashboard** – Visualization of KPIs and trends
+
+---
+
+## 📈 How to Use This Project
+
+1. Use the SQL queries in `SQL_Queries.sql` to extract and unify your sales data.
+2. Import the data into Excel and clean it using Power Query.
+3. Open the Excel dashboard file to explore interactive KPIs and sales insights.
+
+---
+
+## 📬 Contact
+
+For questions, feedback, or collaboration opportunities, feel free to reach out via swathikgowda12@gmail.com.
